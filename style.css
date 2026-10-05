@@ -105,19 +105,25 @@ body{
     body {
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         gap: 20px;
         height: auto;
     }
 
     .currency-name {
         width: 100%;
-        max-height: 250px;
+        max-height: 200px;
+        margin-bottom: 20px;
     }
 
     .container {
         width: 100%;
     }
+
+    .pirunniwarin {
+        width: 200px;
+    }
+}
 
     .pirunniwarin {
         width: 200px;
