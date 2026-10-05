@@ -100,31 +100,3 @@ body{
                  0 0 30px rgba(0, 255, 200, 0.3);
     font-weight: bold;
 }
-
-@media screen and (max-width: 768px){
-  body{
-    display: block !important;
-    width: 100% !important;
-    margin: 0 !important;
-    padding: 10px !important;
-    box-sizing: border-box !important;
-    overflow-x: hidden;
-  }
-
-  .container{
-    position: relative !important;
-    width: 100% !important;
-    max-width: 100% !important;
-    margin: 20px 0 !important;
-    left: auto !important;
-    right: auto !important;
-    top: auto !important;
-    bottom: auto !important;
-    transform: none !important;
-  }
-
-  img{
-    max-width: 100% !important;
-    height: auto !important;
-  }
-}
