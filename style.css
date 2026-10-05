@@ -112,3 +112,23 @@ body{
     margin: 10px 0;
   }
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 10px !important;
+    box-sizing: border-box !important;
+  }
+
+  .container, 
+  .currency, 
+  div {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+}
