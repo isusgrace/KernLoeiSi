@@ -101,6 +101,18 @@ body{
     font-weight: bold;
 }
 
+.currency-name {
+    width: 300px;
+    max-height: 250px;       
+    overflow-y: auto;          
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;       
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px; /* เพิ่มบรรทัดนี้เพื่อเว้นระยะห่างไม่ให้ภาพทับกัน */
+}
+
 @media screen and (max-width: 1024px) {
     body {
         flex-direction: column;
