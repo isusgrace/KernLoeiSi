@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>โปรแกรมแปลงสกุลเงิน</title>
+</head>
+<body>
+    <div class="currency-name">
+        <h3>รายชื่อสกุลเงิน</h3>
+        <ul>
+            <li> AED : เดอร์แฮม (United Arab Emirates Dirham) — ประเทศสหรัฐอาหรับเอมิเรตส์</li>
+            <li> ARS : เปโซอาร์เจนตินา (Argentine Peso) — ประเทศอาร์เจนตินา</li>
+            <li> AUD : ดอลลาร์ออสเตรเลีย (Australian Dollar) — ประเทศออสเตรเลีย</li>
+            <li> BGN : เลฟบัลแกเรีย (Bulgarian Lev) — ประเทศบัลแกเรีย</li>
+            <li> BRL : เรียลบราซิล (Brazilian Real) — ประเทศบราซิล</li>
+            <li> BSD : ดอลลาร์บาฮามาส (Bahamian Dollar) — ประเทศบาฮามาส</li>
+            <li> CAD : ดอลลาร์แคนาดา (Canadian Dollar) — ประเทศแคนาดา</li>
+            <li> CHF : ฟรังก์สวิส (Swiss Franc) — ประเทศสวิตเซอร์แลนด์</li>
+            <li> CLP : เปโซชิลี (Chilean Peso) — ประเทศชิลี</li>
+            <li> CNY : หยวนจีน (Chinese Yuan) — ประเทศจีน</li>
+            <li> COP : เปโซโคลอมเบีย (Colombian Peso) — ประเทศโคลอมเบีย</li>
+            <li> CZK : โครูนาสาธารณรัฐเช็ก (Czech Koruna) — ประเทศเช็กเกีย</li>
+            <li> DKK : โครนเดนมาร์ก (Danish Krone) — ประเทศเดนมาร์ก</li>
+            <li> DOP : เปโซโดมินิกัน (Dominican Peso) — ประเทศโดมินิกัน</li>
+            <li> EGP : ปอนด์อียิปต์ (Egyptian Pound) — ประเทศอียิปต์</li>
+            <li> EUR : ยูโร (Euro) — กลุ่มประเทศยูโรโซน</li>
+            <li> FJD : ดอลลาร์ฟีจี (Fijian Dollar) — ประเทศฟีจี</li>
+            <li> GBP : ปอนด์สเตอร์ลิง (British Pound) — สหราชอาณาจักร</li>
+            <li> GTQ : เกตซัลกัวเตมาลา (Guatemalan Quetzal) — ประเทศกัวเตมาลา</li>
+            <li> HKD : ดอลลาร์ฮ่องกง (Hong Kong Dollar) — ฮ่องกง</li>
+            <li> HRK : คูนาโครเอเชีย (Croatian Kuna) — ประเทศโครเอเชีย</li>
+            <li> HUF : โฟรินต์ฮังการี (Hungarian Forint) — ประเทศฮังการี</li>
+            <li> IDR : รูเปียห์อินโดนีเซีย (Indonesian Rupiah) — ประเทศอินโดนีเซีย</li>
+            <li> ILS : เชเกลอิสราเอล (Israeli New Shekel) — ประเทศอิสราเอล</li>
+            <li> INR : รูปีอินเดีย (Indian Rupee) — ประเทศอินเดีย</li>
+            <li> ISK : โครนาไอซ์แลนด์ (Icelandic Króna) — ประเทศไอซ์แลนด์</li>
+            <li> JPY : เยนญี่ปุ่น (Japanese Yen) — ประเทศญี่ปุ่น</li>
+            <li> KRW : วอนเกาหลีใต้ (South Korean Won) — ประเทศเกาหลีใต้</li>
+            <li> KZT : เทงเจคาซัคสถาน (Kazakhstani Tenge) — ประเทศคาซัคสถาน</li>
+            <li> MXN : เปโซเม็กซิโก (Mexican Peso) — ประเทศเม็กซิโก</li>
+            <li> MYR : ริงกิตมาเลเซีย (Malaysian Ringgit) — ประเทศมาเลเซีย</li>
+            <li> NOK : โครนนอร์เวย์ (Norwegian Krone) — ประเทศนอร์เวย์</li>
+            <li> NZD : ดอลลาร์นิวซีแลนด์ (New Zealand Dollar) — ประเทศนิวซีแลนด์</li>
+            <li> PAB : บัลบัวปานามา (Panamanian Balboa) — ประเทศปานามา</li>
+            <li> PEN : โซลเปรู (Peruvian Sol) — ประเทศเปรู</li>
+            <li> PHP : เปโซฟิลิปปินส์ (Philippine Peso) — ประเทศฟิลิปปินส์</li>
+            <li> PKR : รูปีปากีสถาน (Pakistani Rupee) — ประเทศปากีสถาน</li>
+            <li> PLN : ซลอตีโปแลนด์ (Polish Złoty) — ประเทศโปแลนด์</li>
+            <li> PYG : กวารานีปารากวัย (Paraguayan Guaraní) — ประเทศปารากวัย</li>
+            <li> RON : เลย์โรมาเนีย (Romanian Leu) — ประเทศโรมาเนีย</li>
+            <li> RUB : รูเบิลรัสเซีย (Russian Ruble) — ประเทศรัสเซีย</li>
+            <li> SAR : ริยาลซาอุดีอาระเบีย (Saudi Riyal) — ประเทศซาอุดีอาระเบีย</li>
+            <li> SEK : โครนสวีเดน (Swedish Krona) — ประเทศสวีเดน</li>
+            <li> SGD : ดอลลาร์สิงคโปร์ (Singapore Dollar) — ประเทศสิงคโปร์</li>
+            <li> THB : บาทไทย (Thai Baht) — ประเทศไทย</li>
+            <li> TRY : ลีราตุรกี (Turkish Lira) — ประเทศตุรกี</li>
+            <li> TWD : ดอลลาร์ไต้หวันใหม่ (New Taiwan Dollar) — ไต้หวัน</li>
+            <li> UAH : ฮริฟเนียยูเครน (Ukrainian Hryvnia) — ประเทศยูเครน</li>
+            <li> USD : ดอลลาร์สหรัฐ (United States Dollar) — ประเทศสหรัฐอเมริกา</li>
+            <li> UYU : เปโซอุรุกวัย (Uruguayan Peso) — ประเทศอุรุกวัย</li>
+            <li> VND : ดองเวียดนาม (Vietnamese Dong) — ประเทศเวียดนาม</li>
+            <li> ZAR : แรนด์แอฟริกาใต้ (South African Rand) — ประเทศแอฟริกาใต้</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <img src="image/เงิน01.jpg" alt="" class="money-image" width="700px" height="400px">
+        <h1>โปรแกรมแปลงสกุลเงิน</h1>
+        <div class="currency">
+            <select name="" id="currency-one">
+                <option value="AED">AED</option>
+                <option value="ARS">ARS</option>
+                <option value="AUD">AUD</option>
+                <option value="BGN">BGN</option>
+                <option value="BRL">BRL</option>
+                <option value="BSD">BSD</option>
+                <option value="CAD">CAD</option>
+                <option value="CHF">CHF</option>
+                <option value="CLP">CLP</option>
+                <option value="CNY">CNY</option>
+                <option value="COP">COP</option>
+                <option value="CZK">CZK</option>
+                <option value="DKK">DKK</option>
+                <option value="DOP">DOP</option>
+                <option value="EGP">EGP</option>
+                <option value="EUR">EUR</option>
+                <option value="FJD">FJD</option>
+                <option value="GBP">GBP</option>
+                <option value="GTQ">GTQ</option>
+                <option value="HKD">HKD</option>
+                <option value="HRK">HRK</option>
+                <option value="HUF">HUF</option>
+                <option value="IDR">IDR</option>
+                <option value="ILS">ILS</option>
+                <option value="INR">INR</option>
+                <option value="ISK">ISK</option>
+                <option value="JPY">JPY</option>
+                <option value="KRW">KRW</option>
+                <option value="KZT">KZT</option>
+                <option value="MXN">MXN</option>
+                <option value="MYR">MYR</option>
+                <option value="NOK">NOK</option>
+                <option value="NZD">NZD</option>
+                <option value="PAB">PAB</option>
+                <option value="PEN">PEN</option>
+                <option value="PHP">PHP</option>
+                <option value="PKR">PKR</option>
+                <option value="PLN">PLN</option>
+                <option value="PYG">PYG</option>
+                <option value="RON">RON</option>
+                <option value="RUB">RUB</option>
+                <option value="SAR">SAR</option>
+                <option value="SEK">SEK</option>
+                <option value="SGD">SGD</option>
+                <option value="THB" selected>THB</option>
+                <option value="TRY">TRY</option>
+                <option value="TWD">TWD</option>
+                <option value="UAH">UAH</option>
+                <option value="USD">USD</option>
+                <option value="UYU">UYU</option>
+                <option value="VND">VND</option>
+                <option value="ZAR">ZAR</option>
+            </select>
+            <input type="number" name="" id="amount-one" value="1">
+        </div>
+        <div class="swap">
+            <button class="swap01" id="swap01">สลับสกุลเงิน</button>
+            <div class="rate" id="rate">อัตราการแลกเปลี่ยนเงินตรา</div>
+        </div>
+        <div class="currency">
+            <select name="" id="currency-two">
+                <option value="AED">AED</option>
+                <option value="ARS">ARS</option>
+                <option value="AUD">AUD</option>
+                <option value="BGN">BGN</option>
+                <option value="BRL">BRL</option>
+                <option value="BSD">BSD</option>
+                <option value="CAD">CAD</option>
+                <option value="CHF">CHF</option>
+                <option value="CLP">CLP</option>
+                <option value="CNY">CNY</option>
+                <option value="COP">COP</option>
+                <option value="CZK">CZK</option>
+                <option value="DKK">DKK</option>
+                <option value="DOP">DOP</option>
+                <option value="EGP">EGP</option>
+                <option value="EUR">EUR</option>
+                <option value="FJD">FJD</option>
+                <option value="GBP">GBP</option>
+                <option value="GTQ">GTQ</option>
+                <option value="HKD">HKD</option>
+                <option value="HRK">HRK</option>
+                <option value="HUF">HUF</option>
+                <option value="IDR">IDR</option>
+                <option value="ILS">ILS</option>
+                <option value="INR">INR</option>
+                <option value="ISK">ISK</option>
+                <option value="JPY">JPY</option>
+                <option value="KRW">KRW</option>
+                <option value="KZT">KZT</option>
+                <option value="MXN">MXN</option>
+                <option value="MYR">MYR</option>
+                <option value="NOK">NOK</option>
+                <option value="NZD">NZD</option>
+                <option value="PAB">PAB</option>
+                <option value="PEN">PEN</option>
+                <option value="PHP">PHP</option>
+                <option value="PKR">PKR</option>
+                <option value="PLN">PLN</option>
+                <option value="PYG">PYG</option>
+                <option value="RON">RON</option>
+                <option value="RUB">RUB</option>
+                <option value="SAR">SAR</option>
+                <option value="SEK">SEK</option>
+                <option value="SGD">SGD</option>
+                <option value="THB">THB</option>
+                <option value="TRY">TRY</option>
+                <option value="TWD">TWD</option>
+                <option value="UAH">UAH</option>
+                <option value="USD" selected>USD</option>
+                <option value="UYU">UYU</option>
+                <option value="VND">VND</option>
+                <option value="ZAR">ZAR</option>
+            </select>
+            <input type="number" name="" id="amount-two" value="1">
+        </div>
+    </div>
+
+    <div class="pirunniwarin">
+        <img src="image/pirunniwarinka.png" alt="travel" class="pirunniwarin-image">
+    </div>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</body>
+</html>
